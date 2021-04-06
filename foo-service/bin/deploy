@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -euo pipefail
+
+STAGE=$1
+
+echo "Deploying foo service to $STAGE"
